@@ -14,3 +14,5 @@ class User(Model):
     class Meta:
         database = DATABASE
         order_by = ('-joined_at',)
+
+        
